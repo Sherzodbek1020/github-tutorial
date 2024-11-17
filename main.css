@@ -1,0 +1,281 @@
+.box {
+  display: flex;
+  column-gap: calc(18 / 13.6 * 1vw);
+  padding-right: calc(10 / 13.6 * 1vw);
+  padding-left: calc(10 / 13.6 * 1vw);
+  flex-wrap: wrap;
+  width: 100%;
+  row-gap: calc(16 / 13.6 * 1vw);
+}
+
+.new-box > h1 {
+  font-family: Roboto, sans-serif;
+  font-size: calc(28 / 13.6 * 1vw);
+  font-weight: 400;
+  line-height: calc(32.81 / 13.6 * 1vw);
+  margin-bottom: calc(20 / 13.6 * 1vw);
+}
+
+main {
+  margin-top: calc(50 / 13.6 * 1vw);
+}
+
+.new-box {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: calc(20 / 13.6 * 1vw);
+  margin-left: calc(30 / 13.6 * 1vw);
+  row-gap: calc(20 / 13.6 * 1vw);
+  margin-bottom: calc(50 / 13.6 * 1vw);
+}
+
+.cart {
+  width: calc(181 / 13.6 * 1vw);
+  height: calc(300 / 13.6 * 1vw);
+  background: #ffffff;
+  box-shadow: 0px 4px 40px 0px #0000001f;
+  padding: calc(10 / 13.6 * 1vw) calc(11 / 13.6 * 1vw);
+  position: relative;
+  transition: all 0.3s ease;
+  transform-origin: center;
+  z-index: 3;
+}
+
+.cart-img > img {
+  width: calc(160 / 13.6 * 1vw);
+  height: calc(160 / 13.6 * 1vw);
+}
+
+.cart-p {
+  font-family: Roboto, sans-serif;
+  font-size: calc(16 / 13.6 * 1vw);
+  font-weight: 500;
+  line-height: calc(16.41 / 13.6 * 1vw);
+  margin-top: calc(19 / 13.6 * 1vw);
+  text-align: center;
+}
+
+.cart-button {
+  width: calc(140 / 13.6 * 1vw);
+  height: calc(30 / 13.6 * 1vw);
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  border: none;
+  color: white;
+  margin-top: calc(15 / 13.6 * 1vw);
+}
+
+.cart-span {
+  font-family: Roboto, sans-serif;
+  font-size: calc(15 / 13.6 * 1vw);
+  font-weight: 600;
+  line-height: calc(14.9 / 13.6 * 1vw);
+  width: max-content;
+  margin-top: calc(4 / 13.6 * 1vw);
+  width: calc(150 / 13.6 * 1vw);
+  display: inline-block;
+  text-align: center;
+}
+
+.cart:hover {
+  transform: scale(1.2); /* Elementni 20% kattalashtiradi */
+  box-shadow: 0px 4px 60px 0px #0000003f; /* Hover paytida soyani oshirish */
+}
+
+.button-main {
+  width: calc(177 / 13.6 * 1vw);
+  height: calc(44 / 13.6 * 1vw);
+  border: calc(1.5 / 13.6 * 1vw) solid;
+  border-image-source: linear-gradient(
+    96.78deg,
+    #f64d4d -57.09%,
+    #4d5ef6 101.17%
+  );
+  border-image-slice: 1;
+  background-color: white;
+  font-family: Roboto, sans-serif;
+  font-size: calc(14 / 13.6 * 1vw);
+  font-weight: 500;
+  line-height: calc(16.41 / 13.6 * 1vw);
+  margin-top: calc(19 / 13.6 * 1vw);
+  margin-left: calc(1080 / 13.6 * 1vw);
+  color: black;
+}
+
+.main-div {
+  padding-left: calc(43 / 13.6 * 1vw);
+  padding-right: calc(44 / 13.6 * 1vw);
+}
+
+.main-lox {
+  display: flex;
+  align-items: center;
+}
+
+.main-lox > p {
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-size: calc(14 / 13.6 * 1vw);
+  font-weight: 500;
+  line-height: calc(16.41 / 13.6 * 1vw);
+}
+
+.main-lox > img {
+  width: calc(10 / 13.6 * 1vw);
+  height: calc(10 / 13.6 * 1vw);
+  margin-left: calc(10 / 13.6 * 1vw);
+}
+
+.main-lox > img:nth-child(2) {
+  display: none;
+}
+
+.loks {
+  display: flex;
+  align-items: center;
+}
+.main-div > h1 {
+  font-family: Roboto, sans-serif;
+  font-size: calc(28 / 13.6 * 1vw);
+  font-weight: 500;
+  line-height: calc(34.77 / 13.6 * 1vw);
+}
+
+.main-div > p {
+  font-family: Roboto, sans-serif;
+  font-size: calc(14 / 13.6 * 1vw);
+  font-weight: 300;
+  line-height: calc(17.67 / 13.6 * 1vw);
+  margin-top: calc(15 / 13.6 * 1vw);
+  margin-bottom: calc(15 / 13.6 * 1vw);
+}
+
+.img-cart > img:nth-child(1) {
+  width: calc(30 / 13.6 * 1vw);
+  width: calc(30 / 13.6 * 1vw);
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  border-radius: 50%;
+  padding: calc(5 / 13.6 * 1vw);
+}
+
+.img-cart > img:nth-child(2) {
+  width: calc(30 / 13.6 * 1vw);
+  width: calc(30 / 13.6 * 1vw);
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  border-radius: 50%;
+  padding: calc(5 / 13.6 * 1vw);
+}
+.img-cart {
+  display: flex;
+  flex-direction: column;
+  width: calc(45 / 13.6 * 1vw);
+  height: calc(120 / 13.6 * 1vw);
+  position: absolute;
+  right: calc(0 / 13.6 * 1vw);
+  top: calc(10 / 13.6 * 1vw);
+  row-gap: calc(10 / 13.6 * 1vw);
+}
+
+.cart {
+  position: relative;
+}
+
+/* .eye-img1 {
+  width: 10px;
+  height: 10px;
+} */
+
+.popup-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(1000 / 13.6 * 1vw);
+  height: calc(500 / 13.6 * 1vw);
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+
+.popup-content {
+  color: white;
+  text-align: center;
+}
+
+.eyeimg {
+  width: calc(300 / 13.6 * 1vw);
+  height: calc(300 / 13.6 * 1vw);
+}
+
+.eyep1 {
+  color: #f64d4d;
+}
+
+.close-btn {
+  width: calc(50 / 13.6 * 1vw);
+  height: calc(50 / 13.6 * 1vw);
+  border-radius: 50%;
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  border: calc(2 / 13.6 * 1vw) solid #4d5ef6;
+  position: absolute;
+  right: calc(300 / 13.6 * 1vw);
+  top: calc(250 / 13.6 * 1vw);
+}
+
+.searched-products {
+  position: absolute;
+  top: 76.1px;
+  left: 343px;
+  z-index: 5;
+  max-width: calc(613 / 13.6 * 1vw);
+  width: 100%;
+  max-height: 530px;
+  border-radius: 2px;
+  padding: 20px 10px;
+  background-color: white;
+  box-shadow: 0 0 15px 3px rgba(211, 211, 211, 0.8);
+  overflow: auto;
+  display: none;
+}
+
+.searched-products h1 {
+  margin-left: 14px;
+}
+
+.searched-products_cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  border-bottom: 2px solid rgb(199, 197, 197);
+}
+
+.searched-products_cart:hover {
+  background-color: rgb(222, 222, 222);
+  color: #1e7cff;
+}
+
+.searched-products_cart .searched-product_img {
+  width: 70px;
+  height: 70px;
+}
+
+.searched-products_cart .searched-product_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.searched-products_cart h4 {
+  font-size: 20px;
+}
+
+.searched-products_cart p {
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.inputPvalue {
+  margin-left: 17px;
+}
